@@ -1,0 +1,176 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bb-navy: #020B24;
+  --color-bb-navy-light: #06142F;
+  --color-bb-navy-dark: #010719;
+  --color-bb-gold: #D6A63A;
+  --color-bb-gold-muted: #B98A2E;
+  --color-bb-ivory: #F4F0E6;
+  --color-bb-white: #FFFFFF;
+  --color-bb-text-muted: #AAB3C3;
+  --font-serif: var(--font-serif), Cormorant Garamond, Georgia, serif;
+  --font-sans: var(--font-sans), Inter, system-ui, sans-serif;
+}
+
+:root {
+  --bb-navy: #020B24;
+  --bb-navy-light: #06142F;
+  --bb-navy-dark: #010719;
+
+  --bb-gold: #D6A63A;
+  --bb-gold-muted: #B98A2E;
+
+  --bb-ivory: #F4F0E6;
+  --bb-white: #FFFFFF;
+
+  --bb-text-muted: #AAB3C3;
+
+  --bb-border-gold: rgba(214, 166, 58, 0.25);
+  --bb-border-light: rgba(255, 255, 255, 0.12);
+
+  --background: var(--bb-navy);
+  --foreground: var(--bb-ivory);
+}
+
+body {
+  background-color: var(--bb-navy);
+  color: var(--bb-ivory);
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .font-editorial {
+  font-family: var(--font-serif);
+}
+
+/* Executive Gold Primary Button */
+.bb-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--bb-gold);
+  color: var(--bb-navy) !important;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  padding: 14px 28px;
+  border: 1px solid var(--bb-gold);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+.bb-btn-primary:hover {
+  background-color: #e5b446;
+  border-color: #e5b446;
+  color: var(--bb-navy) !important;
+}
+
+/* Executive Transparent Gold Border Button */
+.bb-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: transparent;
+  color: var(--bb-gold) !important;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  padding: 14px 28px;
+  border: 1px solid var(--bb-gold);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.bb-btn-outline:hover {
+  background-color: var(--bb-gold);
+  color: var(--bb-navy) !important;
+}
+
+/* Header Join CTA Button */
+.bb-header-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid var(--bb-gold);
+  color: var(--bb-gold) !important;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.20em;
+  padding: 9px 20px;
+  border-radius: 2px;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.bb-header-cta:hover {
+  background-color: var(--bb-gold);
+  color: var(--bb-navy) !important;
+}
+
+/* Dark Navy Card Style */
+.bb-card {
+  background-color: var(--bb-navy-light);
+  border: 1px solid var(--bb-border-gold);
+  border-radius: 2px;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.bb-card:hover {
+  border-color: rgba(214, 166, 58, 0.55);
+}
+
+/* Inputs styling */
+.bb-input {
+  width: 100%;
+  background-color: var(--bb-navy);
+  color: var(--bb-ivory);
+  border: 1px solid var(--bb-border-light);
+  border-radius: 2px;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-family: var(--font-sans);
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bb-input::placeholder {
+  color: var(--bb-text-muted);
+  opacity: 0.7;
+}
+
+.bb-input:focus {
+  border-color: var(--bb-gold);
+  box-shadow: 0 0 0 1px var(--bb-gold);
+}
+
+.bb-input-error {
+  border-color: #ef4444 !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bb-navy-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(214, 166, 58, 0.3);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bb-gold);
+}
