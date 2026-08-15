@@ -275,7 +275,7 @@ export default function CommunityPage() {
                 </div>
 
                 <p className="text-[#AAB3C3] text-base leading-relaxed font-light max-w-xl">
-                  {eventConfig.description} Sourced as part of B&amp;B&apos;s commitment to build deliberate rooms, this event features structured seating to connect matching operators.
+                  {eventConfig.description} Built as part of Business &amp; Beyond&apos;s commitment to create deliberate rooms, this event features structured seating to connect matching operators.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-xs text-[#F4F0E6] font-medium uppercase tracking-wider border-t border-[rgba(255,255,255,0.08)] pt-6">
@@ -289,7 +289,7 @@ export default function CommunityPage() {
                   </div>
                   <div className="flex items-center gap-2">
                     <Sparkles size={16} className="text-[#D6A63A]" />
-                    <span>Kolkata, India</span>
+                    <span>Hyderabad, India</span>
                   </div>
                 </div>
               </div>
@@ -343,14 +343,14 @@ export default function CommunityPage() {
             </a> */}
 
             <a
-              href="https://businessandbeyond.in/"
+              href="https://businessandbeyondindia.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="bb-card p-8 flex flex-col gap-2 items-center text-center group"
             >
               <span className="text-[#D6A63A] font-semibold text-xs tracking-[0.20em] uppercase">Official Website</span>
               <span className="text-lg font-editorial text-[#F4F0E6] group-hover:text-[#D6A63A] transition-colors flex items-center gap-1.5">
-                businessandbeyond.in <ExternalLink size={14} />
+                businessandbeyondindia.com <ExternalLink size={14} />
               </span>
             </a>
           </div>

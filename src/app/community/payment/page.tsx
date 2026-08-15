@@ -93,7 +93,7 @@ function PaymentContent() {
           Unfortunately, your application was not selected for this cohort cycle. We encourage you to re-apply for future events.
         </p>
         <p className="text-[#AAB3C3]/60 text-xs">
-          Contact: businessandbeyond.bni@gmail.com
+          Contact: businessandbeyondindia@gmail.com
         </p>
       </div>
     );

@@ -56,10 +56,10 @@ export const eventConfig: EventConfig = {
   communityDescription: "An invitation-led community built for founders, entrepreneurs, and business builders who believe that the right room can create the right opportunities.",
   date: "16 August 2026",
   time: "[PLACEHOLDER - Event Time]",
-  venue: "Workscape by CRED",
-  address: "[PLACEHOLDER - Full Venue Address, Kolkata, West Bengal]",
+  venue: "Hyderabad, India",
+  address: "Hyderabad, India",
   description: "64 founders. 8 curated tables. One room. Conversation designed to move past small talk, trading context, capital, and craft openly.",
-  heroImage: "https://businessandbeyond.in/assets/img/hero/hero-shape-6.webp",
+  heroImage: "/images/bb-logo.png",
   logo: "/images/bb-logo.png",
   registrationFee: 1500, // INR
   razorpayPaymentLink: "https://rzp.io/l/businessandbeyond-draft", // Configurable Razorpay Payment Link
@@ -68,7 +68,7 @@ export const eventConfig: EventConfig = {
       name: "[Speaker Name]",
       role: "[Role / Designation]",
       company: "[Company Name]",
-      image: "https://businessandbeyond.in/assets/img/about/about.jpg"
+      image: "/images/bb-logo.png"
     }
   ],
   schedule: [
@@ -91,7 +91,7 @@ export const eventConfig: EventConfig = {
   faqs: [
     {
       question: "What is Business & Beyond?",
-      answer: "Business & Beyond is a premier community for business networking, innovation, and partnership. Sourced from BNI Kolkata CBD(A) & North, it provides the ultimate platform of business opportunities, collaborations, and powerful networking."
+      answer: "Business & Beyond is a curated community for founders, entrepreneurs, business owners and ambitious builders. We bring the right people into the right room to create meaningful conversations, collaborations and opportunities."
     },
     {
       question: "How does the '8 x 8' format work?",
@@ -107,16 +107,16 @@ export const eventConfig: EventConfig = {
     }
   ],
   contact: {
-    email: "businessandbeyond.bni@gmail.com",
-    phone: "03369028953",
-    phoneLabel: "Harshvardhan Jaiswal",
-    address: "23, Townshend Rd, Bakul Bagan, Bhowanipore, Kolkata, West Bengal 700025",
+    email: "businessandbeyondindia@gmail.com",
+    phone: "9849661602",
+    phoneLabel: "Phone",
+    address: "Hyderabad, India",
     officeHours: "Mon - Fri: 09:00 - 18:00"
   },
   socials: {
     facebook: "https://www.facebook.com/profile.php?id=61559571110028",
     instagram: "https://instagram.com/businessandbeyondindia",
-    linkedin: "https://www.linkedin.com/company/business-beyond-kolkata/",
+    linkedin: "https://www.linkedin.com/company/businessandbeyondindia",
     youtube: "https://www.youtube.com/channel/UCnrFizBvaNfw3PqqmaEtSSg",
     whatsapp: "https://chat.whatsapp.com/[WHATSAPP-COMMUNITY-LINK]"
   }
